@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+~/.cache/pypoetry/virtualenvs/
+
+# Data files
+data/raw/network_data.csv
+data/processed/processed_network_data.csv
+data/plots/
+
+# Model files
+models/saved_models/tft_model.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.log
+*.swp

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "network-capacity-planning"
+version = "0.1.0"
+description = "Real-time network capacity planning with Kafka and TFT"
+authors = ["Sindhu"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+kafka-python = "^2.0.2"
+pytorch-forecasting = "^1.0.0"
+pytorch-lightning = "^2.0.2"
+torch = "^2.0.1"
+dash = "^2.17.0"
+plotly = "^5.22.0"
+scikit-learn = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
