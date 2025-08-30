@@ -142,7 +142,8 @@ Recommendation for router_1: router_1 expected to exceed 300 Mbps on 2025-08-30.
 
 - Dashboard at http://127.0.0.1:8050
 -
-![[realtime_output.png]]
+![Alt text](/home/sindhu/Pictures/Screenshots/Higher_Mean_and_Tighter_Distribution.png)
+
 
 
 
@@ -195,3 +196,4 @@ python scripts/dashboard.py
     5. train.py trains TFT model → models/saved_models/tft_model.pth.
     6. inference.py predicts bandwidth → forecast DataFrame and recommendations.
     7. dashboard.py visualizes forecasts → Dash app at http://127.0.0.1:8050.
+
