@@ -63,17 +63,17 @@ The system uses a modular architecture:
 
 ## 6. Implementation Road Map
 
-- **Phase 1: 
+- **Phase 1:**
     - Install Ubuntu dependencies (Java, Kafka, Poetry).
     - Set up ZooKeeper and Kafka services.
     - Create project directory, pyproject.toml, and install dependencies.
-- **Phase 2: Data Ingestion **:
+- **Phase 2: Data Ingestion**:
     - Implement data_collection.py and kafka_consumer.py.
     - Test publishing/consuming with 1,000 rows.
-- **Phase 3: Processing and Modeling **:
+- **Phase 3: Processing and Modeling**:
     - Implement preprocessing.py, model.py, train.py, and inference.py.
     - Train on 1,000 rows and test forecasts.
-- **Phase 4: Visualization **:
+- **Phase 4: Visualization**:
     - Implement dashboard.py.
     - Test dashboard with forecasts.
 - **Phase 5: Testing and Deployment**:
@@ -198,6 +198,7 @@ python scripts/dashboard.py
     5. train.py trains TFT model → models/saved_models/tft_model.pth.
     6. inference.py predicts bandwidth → forecast DataFrame and recommendations.
     7. dashboard.py visualizes forecasts → Dash app at http://127.0.0.1:8050.
+
 
 
 
